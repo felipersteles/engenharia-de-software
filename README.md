@@ -7,8 +7,11 @@ Antes de pensar nas caracteristicas e especificidades do projeto foi-se a avalia
 Nesta fase foi feito o levantamento de requisitos, avaliação dos requisitos, análise de riscos e definimos um prazo. Para isto utilizamos duas técnicas de elicitação de requisitos sendo elas a entrevista e prototipação. Para a entrevista decidimos ir a campo e entrevistar os proprietarios de restaurante do bairro do coroadinho em São Luis do Maranhão e, foram feitas apenas perguntas simples como: 
 
 -Qual a sua relação com a tecnologia?
+
 -Qual o sentido de ter um aplicativo para auxiliar o restaurante?
+
 -Podemos compartilhar estas informações com a comunidade academica?
+
 
 (link do prototipo feito em figma)
 (Requisitos no repositorio)
