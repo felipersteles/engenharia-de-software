@@ -32,3 +32,5 @@ Nesta fase foi feito um plano de projeto, isto é, foram definidas as tarefas e 
 (explicar o conceito e falar sobre como as praticas foram realizadas e sobre como elas funcionam.)
 
 ## Participantes: (falar com tua equipe)
+
+### Felipe Teles 🙋‍♂️ (github: felipersteles)
