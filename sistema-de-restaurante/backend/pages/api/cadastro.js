@@ -32,9 +32,9 @@ async function handler(req, res) {
       return res.status(400).json({ erro: "Email ja existe >:(" });
     //passou da validacao------------------------------------------------------------------------------------------------------------
 
-    console.log("Passou da validacao");
+    //console.log("Passou da validacao");
     //criptografar senha usando md5
-    console.log(novoCliente);
+    //console.log(novoCliente);
     const salvarCliente = {
       nome: novoCliente.nome,
       email: novoCliente.email,
@@ -42,7 +42,7 @@ async function handler(req, res) {
       endereco: novoCliente.endereco
       };
       
-    console.log(salvarCliente);
+    //console.log(salvarCliente);
 
     try {
       const clienteCadastrado = await ClienteModel.create(salvarCliente);

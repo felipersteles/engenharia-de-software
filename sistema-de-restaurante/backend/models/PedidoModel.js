@@ -2,15 +2,19 @@ import mongoose from "mongoose";
 
 const PedidoSchema = new mongoose.Schema(
   {
-    produtos: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "burguers",
-      },
-    ],
-    nome_usuario: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "usuario",
+    cliente: {
+      type: String,
+      required: true,
+      maxlength: 60,
+    },
+    produtos: [{
+      nome: {type: String, required: true},
+      preco: {type: Number, required: true},
+    }],
+    endereco: {
+      type: String,
+      required: true,
+      maxlength: 200,
     },
     total: {
       type: Number,
@@ -20,7 +24,7 @@ const PedidoSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
-    method: {
+    metodo: {
       type: Number,
       required: true,
     },

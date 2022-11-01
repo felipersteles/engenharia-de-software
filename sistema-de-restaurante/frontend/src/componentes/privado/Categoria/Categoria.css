@@ -1,0 +1,27 @@
+.produto{   
+    display: flex;
+    align-items: center;
+}
+.containerCategoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto img{
+    width: 120px;
+    height: 120px;
+    padding: 0em 1em;
+}
+
+.produto h3{
+    margin-top: .3em;
+}
+.containerProduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerProduto button{
+    margin: .5rem 0;
+}

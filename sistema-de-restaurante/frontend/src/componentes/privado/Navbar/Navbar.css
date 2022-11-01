@@ -1,0 +1,12 @@
+.containerNavbar {
+  display: flex;
+  margin-top: 1.5em;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.containerNavbar img {
+  width: 60px;
+  height: 60px;
+}
